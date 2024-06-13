@@ -32,7 +32,8 @@ main{
 .pop-up{
     
     position: fixed;
-    top: -18px;
+    /* top: -18px; */
+    top: 200px;
     margin: 0px auto;
     width: auto;
     
@@ -43,7 +44,7 @@ main{
     /* background-color: rgb(8, 91, 236); */
     background-color: rgb(4, 83, 221);
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 16px;
     margin: 20px auto;
     position: sticky;
     top: 4px;
