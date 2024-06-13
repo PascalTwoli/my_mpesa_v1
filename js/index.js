@@ -52,7 +52,8 @@ function printMessage() {
     const errorMessage = document.querySelector('.errorMessage');
     const popupMessage = document.querySelector('.blue-box .message-box .mpesaMessage');
     const smsTime = document.querySelector('.blue-box .header .sms-time');
-    const messageElement = document.querySelector('.mpesaMessage1'); 
+
+    // const messageElement = document.querySelector('.mpesaMessage1'); 
     const message = document.createElement("p");
 
     let cost;
@@ -102,4 +103,7 @@ function enterToSubmit(event) {
     if (event.key === 'Enter') {
         printMessage();
     }
+
 }
+
+
