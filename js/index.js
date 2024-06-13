@@ -51,6 +51,7 @@ function printMessage() {
     const balance = document.querySelector('.js-input6').value;
     const errorMessage = document.querySelector('.errorMessage');
     const popupMessage = document.querySelector('.blue-box .message-box .mpesaMessage');
+    const messageElement = document.querySelector('.mpesaMessage1'); 
     const smsTime = document.querySelector('.blue-box .header .sms-time');
 
     // const messageElement = document.querySelector('.mpesaMessage1'); 

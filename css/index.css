@@ -7,12 +7,13 @@ body{
 
 main{
     margin: 10px;
-    padding: 10px;
+    padding: 10px 10px 12px 30px;
     justify-content: center;
     background-color: rgb(250, 247, 247);
     width: 450px;
     margin: 0px auto;
     box-shadow: 0px 1px 5px 0px;
+    border-radius: 7px;
 }
 
 
@@ -180,7 +181,7 @@ h1{
 }
 
 .div1{
-    padding: 20px;
+    /* padding: 20px; */
     margin: auto;
     text-align: center;
     
@@ -193,18 +194,19 @@ h1{
   .div3{
     display: flex;
     text-align: left;
+    margin-bottom: 30px;
   }
 
   input{
     flex-basis: 60%;
-    /* background: rgb(223, 233, 251); */
+    /* background: rgb(223, 233, 251);  */
     background-color: white;
     width: 100%;
     outline: none;
-    border: none;
-    border-bottom: 1px solid black;
-    padding: 4px;
+    border: 1px solid grey;
+    padding-left: 4px;
     flex-basis: 60%;
+    border-radius: 6px;
   }
 
   label{
@@ -212,8 +214,8 @@ h1{
   }
 
   /* .mpesaMessage1-div{
-    margin-bottom: 2vh;
-  } */
+    margin-bottom: 40px;
+  }  */
 
   .mpesaMessage1{
     background-color: rgb(149, 149, 149);
@@ -233,6 +235,7 @@ h1{
   .message-button{
     margin-bottom: 30px;
     cursor: pointer;
+    margin-left: 0px;
   }
 
   .error-div{
@@ -255,9 +258,15 @@ h1{
     border-radius: 5px;
     background-color: white;
     padding-bottom: 20px;
+    margin-bottom: 40px;
+    /* margin-left: 15px; */
   }
 
   .messages-head{
     display: flex;
     align-items: top;
+  }
+
+  a{
+    text-decoration: none;
   }
