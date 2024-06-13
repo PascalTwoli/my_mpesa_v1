@@ -4,88 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my m_pesa</title>
-  <link rel="stylesheet" href="../css/index.css">
-  <link rel="stylesheet" href="messages.html">
+  <link rel="stylesheet" href="css/index.css"> <!----> 
 
   <style>
   </style>
 </head>
 <body>
+<h2 class="heading">My M-pesa</h2>
 <main>
-        <!-- mpesa  dialogue box -->
-  <section class="pop-up">
-    <div class="blue-box" id="bluebox">
-        <div class="header"> 
-                <img class="true" src="../icons/true.png" alt="">        
-                <p class="sms-time"></p>
-                <img class="close-icon" src="../icons/x-regular-132.png" alt="">
-        </div>        
-        <div class="white-box">
-            <div class="mpesaapp">
-                <img class="mpesa-icon" src="../icons/mpesa3 icon .png" alt="">
-                <h1 class="h1">MPESA</h1>
+
+          <!-- mpesa  dialogue box -->
+          <section class="pop-up">
+            <div class="blue-box" id="bluebox">
+                <div class="header"> 
+                        <img class="true" src="icons/true.png" alt="">  <!---->      
+                        <p class="sms-time"></p>
+                        <img class="close-icon" src="icons/x-regular-132.png" alt=""><!----> 
+                </div>        
+                <div class="white-box">
+                    <div class="mpesaapp">
+                        <img class="mpesa-icon" src="icons/mpesa3 icon .png" alt=""><!----> 
+                        <h1 class="h1">MPESA</h1>
+                    </div>
+                    <div class="message-box">
+                        <p class="mpesaMessage" ></p>               
+                    </div> 
+                    <div class="grey-box">
+                        <p class="p2">MARK AS READ</p> 
+                    </div>           
+                </div>
+              </div>
+          </section> 
+
+  <section class="section2">
+      <!-- form for the mpesa details -->
+      <h3>Customer Details</h3>
+      <div class="div1">  
+        <div class="div2">
+            <div class="div3">
+                <label for="name">Full Name:</label>
+                <input type="text" class="js-input1" id="name" placeholder="Your name..." onkeydown="enterToSubmit()"><br><br>
             </div>
-            <div class="message-box">
-                <p class="mpesaMessage" ></p>               
-            </div> 
-            <div class="grey-box">
-                <p class="p2">MARK AS READ</p> 
-            </div>           
+
+            <div class="div3">
+                <label for="tel">Tel:</label>
+                <input type="tel" class="js-input4" id="tel" placeholder="Telephone Number..." onkeydown="enterToSubmit()"><br><br>
+            </div>
+
+            <div class="div3">
+                <label for="amount">Amount:</label>
+                <input type="text" class="js-input3" id="amount" placeholder="Amount..." onkeydown="enterToSubmit()"><br><br>    
+            </div>
+
+            <div class="div3">
+                <label for="balance">Balance:</label>
+                <input type="text" class="js-input6" id="balance" placeholder="Mpesa balance..." onkeydown="enterToSubmit()"><br><br>    
+            </div>
+            <button onclick="printMessage()" class="message-button">Mpesa Message</button>
         </div>
       </div>
-  </section>  
 
-
-  <!-- form for the mpesa details -->
-  
-  <div class="div1">
-    <h2>M-pesa details</h2>
-    
-    <div class="div2">
-        <div class="div3">
-            <label for="name">Full Name:</label>
-            <input type="text" class="js-input1" id="name" placeholder="Your name..." onkeydown="enterToSubmit()"><br><br>
+        
+      <!-- Messages  -->
+      <div class="message-outputs">
+        <div class="messages-head">
+            <img class="mpesa-icon"  src="icons/mpesa3 icon .png" alt=""><!----> 
+            <h3 style="margin-top: 4px; ">Messages</h3>
         </div>
-
-        <div class="div3">
-            <label for="tel">Tel:</label>
-            <input type="tel" class="js-input4" id="tel" placeholder="Telephone Number..." onkeydown="enterToSubmit()"><br><br>
+        <div class="mpesaMessage1-div">
+            <p class="mpesaMessage1"></p>
         </div>
+        
+      </div>
+      
 
-        <div class="div3">
-            <label for="amount">Amount:</label>
-            <input type="text" class="js-input3" id="amount" placeholder="Amount..." onkeydown="enterToSubmit()"><br><br>    
-        </div>
+      <button> <a href="messages.html">Messages ></a></button>
+  </section>     
 
-        <div class="div3">
-            <label for="balance">Balance:</label>
-            <input type="text" class="js-input6" id="balance" placeholder="Mpesa balance..." onkeydown="enterToSubmit()"><br><br>    
-        </div>
-    </div>
-    <button onclick="printMessage()" class="message-button">Mpesa Message</button>
-  </div>
-
-    
-  <!-- Messages  -->
-  <div class="message-outputs">
-    <div class="messages-head">
-        <img class="mpesa-icon"  src="../icons/mpesa3 icon .png" alt="">
-        <h3 style="margin-top: 4px; ">Messages</h3>
-    </div>
-    <div class="mpesaMessage1-div">
-        <p class="mpesaMessage1"></p>
-    </div>
-    
-  </div>
-  
+</main>
+<div class="div4">
   <div class="error-div">
     <p class="errorMessage"></p>
-  </div>
-
-  <button> <a href="messages.html">to messages</a></button>
-</main>
+  </div> 
+</div>
 
 
-  <script src="../js/index.js"></script>
+
+  <script src="js/index.js"></script>
 </body>
 </html>
