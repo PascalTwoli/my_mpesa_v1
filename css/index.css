@@ -18,7 +18,7 @@ main{
     padding-left: 3px;
     /* justify-content: center; */
     background-color: rgb(250, 247, 247);
-    width: 454px;
+    width: 458px;
     margin: 0px auto;
     box-shadow: 0px 0px 5px -2px grey;
     border-radius: 7px;
@@ -32,8 +32,8 @@ main{
 .pop-up{
     
     position: fixed;
-    /* top: -18px; */
-    top: 200px;
+    top: -18px;
+    /* top: 200px; */
     margin: 0px auto;
     width: auto;
     
@@ -93,12 +93,13 @@ main{
 
  .close-icon{
         margin-top: 15px;
+        color: red;
 } 
 
 
 .sms-time{
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     margin: 13px 0px 0px 0px ;
    
 }
@@ -110,7 +111,7 @@ main{
 }
 
 .close-icon{
-    height: 20px;
+    height: 30px;
     border: none;
     cursor: pointer;
 }
@@ -119,7 +120,7 @@ main{
     background-color: white;
     height: 160px;
     width: 430px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin: 10px;
     position: relative;
     
@@ -136,13 +137,14 @@ main{
 
 .mpesaMessage{
     font-size: 15px;
-    color: rgb(97, 97, 97);
+    color: rgb(97, 97 , 97);
+    /* color: black; */
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden; 
     padding: 20px 2px 0px 20px;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .mpesaapp{
@@ -168,8 +170,8 @@ main{
     height: 50px;
     width: 100%;
     position: absolute;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,9 +181,10 @@ main{
 .p2{
     text-align: center;
     align-items: center;
-    color: rgb(47, 152, 244);
+    /* color: rgb(47, 152, 244); */
+    color: rgb(35, 137, 239);
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: normal;
     cursor: pointer;
 }
 
@@ -190,7 +193,7 @@ h1{
     display: inline-block;
     margin-left: 8px;
     font-family: madefor-text-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     color: rgb(77, 77, 77);
 }
 
