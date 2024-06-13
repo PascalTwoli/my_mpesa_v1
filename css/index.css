@@ -2,13 +2,19 @@ body{
     font-family: madefor-text-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
     padding: 0px;
     height: 1000px;
+    
 }
+
+.heading{
+  text-align: center;
+}
+
 
 
 main{
     margin: 10px;
-    padding: 10px 10px 12px 30px;
-    justify-content: center;
+    padding: 0px;
+    /* justify-content: center; */
     background-color: rgb(250, 247, 247);
     width: 450px;
     margin: 0px auto;
@@ -16,12 +22,17 @@ main{
     border-radius: 7px;
 }
 
+.section2{
+  padding: 10px 15px 12px 30px; 
+}
+
 
 .pop-up{
     
     position: fixed;
-    top: -64px;
-    margin: 50px auto;
+    top: -18px;
+    margin: 0px auto;
+    width: auto;
     
 }
 
@@ -219,7 +230,7 @@ h1{
 
   .mpesaMessage1{
     background-color: rgb(149, 149, 149);
-    width: 400px; 
+    width: 370px; 
     border: none;
     border-radius: 3px;
     padding: 1px 5px; 
@@ -238,6 +249,10 @@ h1{
     margin-left: 0px;
   }
 
+  .div4{
+    margin: 0px auto;
+  }
+
   .error-div{
     text-align: center;
     position: fixed;
@@ -251,6 +266,7 @@ h1{
     padding: 10px 15px;
     display: none;
     font-weight: lighter;
+    flex-wrap: wrap;
   }
 
   .message-outputs{
