@@ -1,8 +1,8 @@
 body{
     font-family: madefor-text-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
-    padding: 0px;
+    padding: 0px !important;
     height: 1000px;
-    margin-left: -1px;
+    margin: 0px !important;
     background-color: rgb(48, 46, 46);
 }
 
@@ -17,7 +17,7 @@ main{
     /* margin: 10px; */
     margin-right: 20px;
     padding: 0px;
-    padding-left: 3px;
+    padding-left: 7px;
     /* justify-content: center; */
     background-color: rgb(250, 247, 247);
     width: 458px;
@@ -245,7 +245,7 @@ h1{
     font-family: madefor-text-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
     /* margin: auto; */
     margin-left: 6px;
-    font-weight: lighter;
+    font-weight: normal;
     color: white;
     font-size: 14px;
     line-height: 17px;
